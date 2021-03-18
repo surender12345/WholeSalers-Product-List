@@ -1,0 +1,83 @@
+@media(min-width:1600px)
+{
+	#poststuff .inside {
+     display: flex;
+    flex-wrap: wrap;
+	}
+
+	.column-4 {
+    display: flex;
+    width: 20%;
+}
+.column-4 label {
+    width: 110px;
+}
+.column-4 input[type="text"] {
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+}
+
+@media(min-width:1240px) and (max-width:1600px)
+{
+	#poststuff .inside {
+     display: flex;
+    flex-wrap: wrap;
+	}
+
+	.column-4 {
+    display: flex;
+    width: 32%;
+}
+.column-4 label {
+    width: 110px;
+}
+.column-4 input[type="text"] {
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+}
+
+@media(max-width:1240px)
+{
+	#poststuff .inside {
+     display: flex;
+    flex-wrap: wrap;
+	}
+
+	.column-4 {
+    display: flex;
+    width: 48%;
+}
+.column-4 label {
+    width: 110px;
+}
+.column-4 input[type="text"] {
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+}
+
+@media(max-width:767px)
+{
+	#poststuff .inside {
+     display: flex;
+    flex-wrap: wrap;
+	}
+
+	.column-4 {
+    display: flex;
+    width: 100%;
+}
+.column-4 label {
+    width: 110px;
+}
+.column-4 input[type="text"] {
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+}
